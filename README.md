@@ -38,20 +38,20 @@ A powerful and interactive Bash script to **automatically back up** your entire 
 1. **Clone this repo:**
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/linux-disk-autoextend.git
+git clone https://github.com/cagrisaltik/linux-disk-autoextend.git
 cd linux-disk-autoextend
 ```
 
 2. **Make the script executable:**
 
 ```bash
-chmod +x auto_backup_extend.sh
+chmod +x extend.sh.sh
 ```
 
 3. **Run the script as root:**
 
 ```bash
-sudo ./auto_backup_extend.sh
+sudo ./extend.sh.sh
 ```
 
 4. **Follow the on-screen prompts:**
@@ -112,4 +112,4 @@ Backups are stored as a compressed `.tar.gz` file in `/tmp` and then transferred
 
 ## 📜 License
 
-MIT © 2025 — [Your Name](https://github.com/YOUR-USERNAME)
+MIT © 2025 — [Çağrı Saltık](https://github.com/cagrisaltik)
