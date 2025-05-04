@@ -92,7 +92,7 @@ rsync_transfer() {
 
 # Kullanıcı onayı al
 kullanici_onayi() {
-    read -rp "Yedek başarıyla alındı. Devam edip diski genişletmek istiyor musunuz? [y/N]: " onay
+    read -rp "Yedek başarıyla alındı.Yedeği uzak sunucuya yüklemek ve devam edip diski genişletmek istiyor musunuz? [y/N]: " onay
     [[ "$onay" != "y" && "$onay" != "Y" ]] && {
         log "🛑 İşlem iptal edildi."
         exit 0
