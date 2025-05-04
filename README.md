@@ -45,13 +45,13 @@ cd linux-disk-autoextend
 2. **Make the script executable:**
 
 ```bash
-chmod +x extend.sh.sh
+chmod +x extend.sh
 ```
 
 3. **Run the script as root:**
 
 ```bash
-sudo ./extend.sh.sh
+sudo ./extend.sh
 ```
 
 4. **Follow the on-screen prompts:**
