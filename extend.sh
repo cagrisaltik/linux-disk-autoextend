@@ -74,7 +74,7 @@ scp_transfer() {
     if [ $? -eq 0 ]; then
         log "✅ SCP transferi tamamlandı!"
     else
-        err "SCP transferi başarısız oldu!"
+        err "🛑 SCP transferi başarısız oldu!"
     fi
 }
 
@@ -86,7 +86,7 @@ rsync_transfer() {
     if [ $? -eq 0 ]; then
         log "✅ rsync transferi tamamlandı!"
     else
-        err "rsync transferi başarısız oldu!"
+        err "🛑 rsync transferi başarısız oldu!"
     fi
 }
 
@@ -113,7 +113,7 @@ extend_lvm() {
     LV_PATH="/dev/$VG/$LV"
 
     NEW_DISK=$(lsblk -dpno NAME | grep -v "$(pvs | awk '{print $1}')" | grep -v "loop" | head -n1)
-    [[ -z "$NEW_DISK" ]] && err "Boş disk bulunamadı!"
+    [[ -z "$NEW_DISK" ]] && err "🛑 Boş disk bulunamadı!"
 
     pvcreate "$NEW_DISK"
     vgextend "$VG" "$NEW_DISK"
