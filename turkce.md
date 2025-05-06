@@ -1,4 +1,5 @@
 ## 📢 Genel Yayın: AutoBackup & Disk Extender v1.0
+
 Linux sistemleri için geliştirdiğimiz AutoBackup & Disk Extender aracının ilk genel sürümünü duyurmaktan mutluluk duyuyoruz!
 Bu interaktif Bash betiği, tam sistem yedekleme ve disk genişletme işlemlerini tek adımda ve güvenli bir şekilde otomatikleştirir.
 
@@ -7,6 +8,7 @@ Bu interaktif Bash betiği, tam sistem yedekleme ve disk genişletme işlemlerin
 
 
 🧰 Bu Nedir?
+
 Bu betik sayesinde şunları zahmetsizce yapabilirsiniz:
 
 📦 Linux sisteminizin tamamını .tar.gz formatında sıkıştırılmış bir arşiv olarak yedekleyin (dinamik veya geçici dizinler otomatik olarak hariç tutulur).
@@ -21,6 +23,7 @@ Bu betik sayesinde şunları zahmetsizce yapabilirsiniz:
 
 
 🔑 Öne Çıkan Özellikler
+
 🧠 Akıllı disk yapı algılaması (LVM olup olmadığını belirler)
 
 💬 Kullanıcıdan onay alan etkileşimli komut satırı (CLI) arayüzü
@@ -40,6 +43,7 @@ Bu betik sayesinde şunları zahmetsizce yapabilirsiniz:
 
 
 💡 Kullanım Senaryoları
+
 Sistem güncellemesi öncesi tam yedekleme
 
 Bulut tabanlı VM’lerde disk genişletme öncesi koruma
@@ -53,6 +57,7 @@ Disk operasyonları öncesinde hızlı snapshot oluşturma
 
 
 📦 Desteklenen Aktarım Yöntemleri
+
 Yedekleme tamamlandığında aşağıdaki 3 aktarım yöntemi arasından seçim yapabilirsiniz:
 
 1️⃣ SCP – Basit ve güvenli
@@ -68,6 +73,7 @@ Script, uzak sunucu kullanıcı adı ve şifresini sizden ister ve bağlantıyı
 
 
 🚨 Güvenlik ve Uyarılar
+
 ✔️ Kullanıcının onayı olmadan hiçbir işlem yapılmaz
 ✔️ Kritik sistem dizinleri asla yedeklenmez veya değiştirilmez
 ✔️ Tüm işlem adımları açıkça loglanır ve kullanıcıya gösterilir
@@ -78,6 +84,7 @@ Script, uzak sunucu kullanıcı adı ve şifresini sizden ister ve bağlantıyı
 
 
 📁 Depo ve Belgeler
+
 📚 Kurulum, kullanım ve katkı yönergeleri için README.md dosyasına göz atabilirsiniz.
 
 ***
@@ -85,6 +92,7 @@ Script, uzak sunucu kullanıcı adı ve şifresini sizden ister ve bağlantıyı
 
 
 🛡️ Lisans
+
 MIT — özgürce kullanabilir, düzenleyebilir ve paylaşabilirsiniz.
 
 Bu araç, Linux sistem yönetimini daha hızlı, güvenli ve kullanıcı dostu hale getirmek için geliştirildi.
